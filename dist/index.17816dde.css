@@ -1,0 +1,18 @@
+:root {
+  --main-color: #08a6e4;
+  --shadow-color: #07ace629;
+  --redish-color: #fb3b64;
+  --green-color: #55dfb4;
+  --black-color: #000;
+  --grey-color: #a5a5a5;
+  --light-grey-color: #f7f7f7;
+  --white-color: #fff;
+  --main-font: "Raleway", sans-serif;
+  --second-font: "Open Sans", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=index.17816dde.css.map */
