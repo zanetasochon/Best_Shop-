@@ -335,7 +335,7 @@ body {
 
 .third__box {
   display: flex;
-  margin-bottom: 105.33px;
+  padding-bottom: 105.33px;
 
   .text__container.third__box {
     width: 623.04px;
@@ -377,5 +377,237 @@ body {
     align-items: center;
     border-radius: 5px;
     margin-left: 60.96px;
+  }
+}
+
+// Pricing Section
+
+.pricing__boxes {
+  width: 100vw;
+  height: 100%;
+  background-color: #ffffff;
+  padding-bottom: 171px;
+}
+
+.container__boxes {
+  margin: 0 auto;
+  height: 616px;
+  width: 1266px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.heading {
+  font-family: $mainFont;
+  font-weight: 400;
+  font-size: 36px;
+  padding-bottom: 50px;
+  padding-top: 100px;
+}
+
+.pricing__section {
+  display: flex;
+  gap: 59px;
+}
+
+.basic__box {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid $redishColor;
+  border-radius: 18px;
+  align-items: center;
+
+  .heading__box {
+    font-family: $mainFont;
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 14px;
+    padding-top: 34px;
+    padding-left: 161px;
+    padding-right: 160px;
+  }
+
+  .cost.rose {
+    font-family: $secondFont;
+    font-weight: 300;
+    color: $redishColor;
+    font-size: 46px;
+    padding-bottom: 69px;
+  }
+
+  .offer {
+    font-family: $secondFont;
+    font-weight: 400;
+    font-size: 14px;
+    padding-bottom: 20px;
+
+    &::before {
+      content: "✓";
+      color: #55dfb4;
+      font-size: 5px;
+      border: 1px solid #55dfb4;
+      border-radius: 2px;
+      padding: 2px;
+      position: absolute;
+      transform: translate(-18px, 3px);
+    }
+  }
+  .button.rose {
+    background-color: $redishColor;
+    border-radius: 23px;
+    padding: 16px 57px;
+    font-family: $secondFont;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 13px;
+    text-decoration: none;
+    position: absolute;
+    transform: translate(-72px, 56px);
+  }
+}
+
+.professional__box {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid $mainColor;
+  border-radius: 18px;
+  align-items: center;
+  box-shadow: #07ace629 5px 10px 27px;
+}
+
+.heading__box--second {
+  font-family: $mainFont;
+  font-weight: 700;
+  font-size: 21px;
+  padding-bottom: 14px;
+  padding-left: 141px;
+  padding-right: 141px;
+  padding-top: 34px;
+}
+
+.cost.blue {
+  font-family: $secondFont;
+  font-weight: 300;
+  color: $mainColor;
+  font-size: 46px;
+  padding-bottom: 5px;
+}
+
+.info {
+  font-family: $mainFont;
+  font-weight: 700;
+  font-size: 12px;
+  padding-bottom: 61px;
+}
+
+.offer {
+  font-family: $secondFont;
+  font-weight: 400;
+  font-size: 14px;
+  padding-bottom: 26px;
+
+  &::before {
+    content: "✓";
+    color: #55dfb4;
+    font-size: 5px;
+    border: 1px solid #55dfb4;
+    border-radius: 2px;
+    padding: 2px;
+    position: absolute;
+    transform: translate(-18px, 3px);
+  }
+}
+
+.offer.last {
+  padding-bottom: 69px;
+}
+
+.button.blue {
+  background-color: $mainColor;
+  border-radius: 23px;
+  padding: 16px 57px;
+  font-family: $secondFont;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 13px;
+  text-decoration: none;
+  position: absolute;
+  transform: translate(-66px, -23px);
+}
+
+.premium__box {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #55dfb4;
+  border-radius: 18px;
+  align-items: center;
+
+  .heading__box {
+    font-family: $mainFont;
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 14px;
+    padding-left: 143px;
+    padding-right: 143px;
+    padding-top: 34px;
+  }
+
+  .cost.green {
+    font-family: $secondFont;
+    font-weight: 300;
+    color: #55dfb4;
+    font-size: 46px;
+    padding-bottom: 5px;
+  }
+
+  .info {
+    font-family: $mainFont;
+    font-weight: 700;
+    font-size: 12px;
+    padding-bottom: 61px;
+  }
+
+  .offer {
+    font-family: $secondFont;
+    font-weight: 400;
+    font-size: 14px;
+    padding-bottom: 20px;
+
+    &::before {
+      content: "✓";
+      color: #55dfb4;
+      font-size: 5px;
+      border: 1px solid #55dfb4;
+      border-radius: 2px;
+      padding: 2px;
+      position: absolute;
+      transform: translate(-18px, 3px);
+    }
+  }
+  .button.green {
+    background-color: #55dfb4;
+    border-radius: 23px;
+    padding: 16px 57px;
+    font-family: $secondFont;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 13px;
+    text-decoration: none;
+    position: absolute;
+    transform: translate(-67px, 48px);
+  }
+}
+
+.offer.x {
+  &::before {
+    content: "x";
+    color: #eb476e;
+    font-size: 6px;
+    border: 1px solid #eb476e;
+    border-radius: 2px;
+    padding: 2px;
+    position: absolute;
+    transform: translate(-18px, 3px);
   }
 }
