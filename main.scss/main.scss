@@ -611,3 +611,143 @@ body {
     transform: translate(-18px, 3px);
   }
 }
+
+// section form
+
+.form {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  padding-bottom: 59px;
+
+  .container__form {
+    width: 896px;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  .contact {
+    .contact__form {
+      font-family: $mainFont;
+      font-weight: 400;
+      font-size: 49px;
+      padding-bottom: 22px;
+    }
+  }
+}
+
+.under__text {
+  font-family: $secondFont;
+  font-weight: 400;
+  font-size: 16px;
+  padding-bottom: 42px;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.email {
+  font-family: $secondFont;
+  font-weight: 500;
+  font-size: 16px;
+  color: $greyColor;
+  padding-left: 25px;
+
+  &::before {
+    content: "";
+    background-image: url(../assets/Mail\ Icon.svg);
+    width: 27px;
+    height: 27px;
+    display: flex;
+    position: absolute;
+    transform: translate(-30px, -3px);
+  }
+}
+
+.phone {
+  font-family: $secondFont;
+  font-weight: 500;
+  font-size: 16px;
+  color: $greyColor;
+  padding-left: 57px;
+
+  &::before {
+    content: "";
+    background-image: url(../assets/Phone\ Icon.svg);
+    width: 27px;
+    height: 27px;
+    display: flex;
+    position: absolute;
+    transform: translate(-30px, -3px);
+  }
+}
+
+.dane {
+  font-size: 11px;
+  font-family: $secondFont;
+  font-weight: 600;
+  color: $mainColor;
+  letter-spacing: 3.28px;
+  padding-bottom: 43.02px;
+  border-bottom: 1px solid #95989a;
+  margin-bottom: 42px;
+}
+
+.form__for--send {
+  padding-left: 114px;
+
+  .checkbox {
+    font-family: $secondFont;
+    font-weight: 400;
+    font-size: 12px;
+    color: #707070;
+    display: flex;
+  }
+}
+
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  width: 19px;
+  height: 19px;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px #95989a;
+  outline: none;
+  position: relative;
+  margin-right: 10px;
+
+  &:checked::after {
+    content: "✓";
+    color: $mainColor;
+    font-size: 12px;
+    text-align: center;
+    width: 11px;
+    height: 11px;
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-right: 10px;
+  }
+}
+
+.button__send--form {
+  background-color: $mainColor;
+  border-radius: 35px;
+  padding: 20px 97px;
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 59px;
+  align-self: flex-end;
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+  font-family: $secondFont;
+  font-weight: 600;
+}
