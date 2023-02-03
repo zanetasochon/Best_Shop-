@@ -732,7 +732,7 @@ input[type="checkbox"] {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -62%);
     margin-right: 10px;
   }
 }
@@ -750,4 +750,47 @@ input[type="checkbox"] {
   font-size: 13px;
   font-family: $secondFont;
   font-weight: 600;
+}
+
+// section footer
+
+.footer {
+  width: 100vw;
+  height: 89px;
+  box-shadow: #00000029 0 -5px 40px;
+  background-color: #fff;
+
+  .container__footer {
+    width: 1352px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+    .footer__logo {
+      font-size: 26px;
+      color: $mainColor;
+      font-family: $mainFont;
+      font-weight: 300;
+      padding-left: 137px;
+      padding-top: 20.48px;
+      padding-bottom: 17px;
+
+      .copyright {
+        font-family: $secondFont;
+        font-weight: 400;
+        font-size: 11px;
+        color: $greyColor;
+        opacity: 1;
+      }
+    }
+    .icons {
+      display: flex;
+      gap: 20px;
+      padding-right: 136px;
+      padding-top: 35px;
+      padding-bottom: 30px;
+    }
+  }
 }
