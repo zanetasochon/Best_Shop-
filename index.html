@@ -1,85 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="main.scss/main.scss" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Raleway:wght@300;400;700;800&display=swap"
-      rel="stylesheet"
-    />
-    <title>BestShop</title>
-  </head>
-  <body>
-    <section class="header">
-      <div class="container">
-        <nav class="menu">
-          <div class="logo">BestShop</div>
-          <ul>
-            <li><a href="#">WHY US</a></li>
-            <li><a href="#">BENEFITS</a></li>
-            <li><a href="#">PRICES</a></li>
-            <li><a href="#">CONTACT</a></li>
-          </ul>
-        </nav>
-      </div>
-    </section>
 
-    <section class="main">
-      <div class="container">
-        <h1>Sell More!</h1>
-        <p>Open shop on our platform and increase your sales</p>
-        <a href="#">Open your shop</a>
-      </div>
-    </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- <link href="main.scss/reset.scss" rel="stylesheet" /> -->
+  <link href="main.scss/main.scss" rel="stylesheet" />
+  <link href="main.scss/_variables.scss" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Raleway:wght@300;400;700;800&display=swap"
+    rel="stylesheet" />
+  <title>BestShop</title>
+</head>
 
-    <section class="icons_columns">
-      <div class="container">
-        <h2>The most popular sales platform in country</h2>
-        <div class="first__column"></div>
-        <div class="second__column"></div>
-        <div class="third__column"></div>
-      </div>
-    </section>
+<body>
+  <section class="header">
+    <div class="container">
+      <div class="logo">BestShop</div>
+      <nav class="menu">
+        <ul>
+          <li><a href="#">WHY US</a></li>
+          <li><a href="#">BENEFITS</a></li>
+          <li><a href="#">PRICES</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+      </nav>
+    </div>
+  </section>
 
-    <section class="boxes">
-      <div class="container">
-        <div class="first__box"></div>
-        <div class="second__box"></div>
-        <div class="third__box">
-          <div class="left__box"></div>
-          <div class="right__box"></div>
+  <section class="main">
+    <div class="container main__section">
+      <h1>Sell More!</h1>
+      <p class="text">Open shop on our platform and increase your sales</p>
+      <a href="#">Open your shop</a>
+    </div>
+    <img src="/assets/Background.png" alt="laptop and work staff" class="background" />
+  </section>
+
+  <section class="icons__columns">
+    <div class="container most__popular">
+      <h2 class="section__title">
+        The most popular sales platform in country
+      </h2>
+      <div class="wrapper">
+        <div class="statistics">
+          <div class="photo__container person">
+            <img class="statistics__image first" src="/assets/Person.svg" />
+          </div>
+          <p class="numbers">100000+</p>
+          <p class="column__text">daily entries</p>
+        </div>
+        <div class="statistics">
+          <div class="photo__container eye">
+            <img class="statistics__image second" src="/assets/Eye.svg" />
+          </div>
+          <p class="numbers">2000000+</p>
+          <p class="column__text">
+            seen products <br />
+            every day
+          </p>
+        </div>
+        <div class="statistics">
+          <div class="photo__container catalog">
+            <img class="statistics__image third" src="/assets/Catalog.svg" />
+          </div>
+          <p class="numbers">10000+</p>
+          <p class="column__text">
+            added posts <br />
+            daily
+          </p>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="column__boxes">
-      <div class="container">
-        <h3>Pricing</h3>
-        <div class="first__column--box"></div>
-        <div class="second__column--box"></div>
-        <div class="third__column--box"></div>
-      </div>
-    </section>
-
-    <section class="checkbox">
-      <div class="container">
-        <div class="form__left"></div>
-        <div class="form__right"></div>
-      </div>
-    </section>
-
-    <section class="footer">
-      <div class="footer__logo">
-        <div class="copyright"></div>
-        <div class="icons">
-          <div class="twitter"><a href="#"></a></div>
-          <div class="facebook"><a href="#"></a></div>
+  <section class="articles">
+    <div class="section__articles--container">
+      <div class="laptop__box">
+        <div class="text__container">
+          <h2 class="article__title">Be always first</h2>
+          <p class="text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br> sed do
+            eiusmod tempor incididunt ut labore et dolore <br> magna aliqua. Ut enim
+            ad minim veniam.
+          </p>
+        </div>
+        <div class="macbook__container">
+          <img class="macbook" src="/assets/Macbook.png" alt="Macbook" />
         </div>
       </div>
-    </section>
-  </body>
+      <div class="phone__box">
+        <div class="text__container second ">
+          <h2 class="article__title">Your shop is where you are!</h2>
+          <p class="text__blue--bottom--line">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br> sed do
+            eiusmod tempor incididunt ut labore et dolore <br> magna aliqua. Ut enim
+            ad minim veniam.
+          </p>
+        </div>
+        <div class="iphone__container">
+          <img class="iphone" src="/assets/iPhone.png" alt="iphone" />
+        </div>
+      </div>
+      <div class="third__box">
+        <div class="text__container third__box">
+          <h2 class="article__title">Increase recognition your brand!</h2>
+          <p class="text__green--bottom--line">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+            enim ad minim veniam.
+          </p>
+        </div>
+        <div class="trumpet__container">
+          <img class="trumpet" src="/assets/Trumpet.png" />
+        </div>
+      </div>
+  </section>
+
+
+
+  <section class="pricing__boxes">
+    <div class="container__boxes">
+      <h3 class="heading">Pricing</h3>
+      <div class="pricing__section">
+        <div class="basic__box">
+          <div class="heading__box">Basic</div>
+          <div class="cost rose">$0</div>
+          <div class="offer">100 MB HDD</div>
+          <div class="offer">1 Subdomain</div>
+          <div class="offer">2 E-mails</div>
+          <div class="offer x">Two years license</div>
+          <div class="offer x">Full support</div>
+          <div><a href="#" class="button rose">Begin</a></div>
+        </div>
+
+
+        <div class="professional__box">
+          <div class="heading__box--second">Professional</div>
+          <div class="cost blue">$25</div>
+          <p class="info">Limited offer</p>
+          <div class="offer">500 MB HDD</div>
+          <div class="offer">2 Subdomains</div>
+          <div class="offer">5 E-mails</div>
+          <div class="offer ">One year license</div>
+          <div class="offer x last">Full support</div>
+          <div><a href="#" class="button blue">Begin</a></div>
+        </div>
+        <div class="premium__box">
+          <div class="heading__box">Premium</div>
+          <div class="cost green">$60</div>
+          <p class="info">Limited offer</p>
+          <div class="offer">2 GB HDD</div>
+          <div class="offer">5 Subdomains</div>
+          <div class="offer">20 E-mails</div>
+          <div class="offer">Two years license</div>
+          <div class="offer">Full support</div>
+          <div><a href="#" class="button green">Begin</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="form">
+    <div class="container__form">
+      <div class="contact">
+        <h2 class="contact__form">Any Questions?</h2>
+        <p class="under__text">Leave your email address or call us!</p>
+        <div class="wrapper">
+          <div class="email">info@bestshop.xyz</div>
+          <div class="phone">123 456 789</div>
+        </div>
+      </div>
+
+      <div class="form__for--send">
+        <div class="dane">NAME</div>
+        <div class="dane">EMAIL</div>
+        <label class="checkbox">
+          <input type="checkbox">
+          <span></span>
+          I hereby give consent for my personal data included in my application to <br> be processed for the purposes of
+          the recruitment process under the <br> European Parliament’s and Council of the European Union Regulation <br>
+          on the Protection of Natural Persons as of 27 April 2016, with regard to <br> the processing of personal data
+          and on the free movement of such data, <br> and repealing Directive 95/46/EC (Data Protection Directive)
+        </label>
+        <div><a href="#" class="button__send--form">Send</a></div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="footer">
+    <div class="container__footer">
+      <div class="footer__logo">BestShop
+        <div class="copyright">© 2019 BestShop LTD, All Rights Reserved</div>
+      </div>
+      <div class="icons">
+        <img class="icon__twitter" src="/assets/Twitter.svg" />
+        <img src="/assets/Facebook.svg" />
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>
+</body>
+
+</html>
+</body>
+
 </html>
