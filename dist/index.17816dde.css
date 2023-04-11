@@ -755,4 +755,103 @@ input[type="checkbox"]:checked:after {
   display: flex;
 }
 
+.calc {
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.calc__columns {
+  width: 865px;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.calculate__heading {
+  padding-top: 87px;
+  padding-bottom: 52px;
+  font-family: Raleway, sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.calc__input input, .calc__select .select__input {
+  color: #a5a5a5;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #08a6e4;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  padding: 11px 20px;
+  font-size: 13px;
+  box-shadow: 0 3px 6px #08a6e4;
+}
+
+.calc__input input__input input::placeholder, .calc__select .select__input__input input::placeholder {
+  color: #a5a5a5;
+}
+
+.calc__select .select__input {
+  height: 40px;
+  vertical-align: middle;
+  cursor: pointer;
+  padding: 13px 20px;
+  position: relative;
+}
+
+.calc__select .select__input:after {
+  content: "";
+  width: 22px;
+  height: 22px;
+  background-image: url("Arrow Down.c28de5be.svg");
+  display: block;
+  position: absolute;
+  top: 9px;
+  right: 14px;
+}
+
+.select__dropdown {
+  z-index: 1;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #fb3b64;
+  border-radius: 6px;
+  display: none;
+  position: absolute;
+  overflow: hidden;
+}
+
+.select__dropdown li {
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 13px;
+}
+
+.select__dropdown li:hover {
+  background-color: #f7f7f7;
+}
+
+.select__dropdown.open .calc__ select .select__input:after {
+  transform: rotate(180deg);
+}
+
+.select__dropdown.open .select__dropdown {
+  display: block;
+}
+
+.form__checkbox .consent__text {
+  padding-top: 4px;
+}
+
+.calc__summary {
+  width: 50%;
+  flex-direction: column;
+  margin-left: 20px;
+  display: flex;
+}
+
 /*# sourceMappingURL=index.17816dde.css.map */
